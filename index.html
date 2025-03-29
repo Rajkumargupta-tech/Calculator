@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>calculator</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>  
+  <input type="text" id="Result" disabled>
+  <div>
+  <button class="cal1"onclick="calValue('(')">(</button>
+  <button class="cal1"onclick="calValue(')')">)</button>
+  <button class="cal1"onclick="calValue('%')">%</button>
+  <button class="cal1"onclick="clearScreen( )">AC</button>
+      
+  <br>
+  <br>
+  <button onclick="calValue('7')">7</button>
+  <button onclick="calValue('8')">8</button>
+  <button onclick="calValue('9')">9</button>
+  <button class="cal1" onclick="calValue('/')">/</button>  
+  <br>
+  <br>
+  <button onclick="calValue('4')">4</button>
+  <button onclick="calValue('5')">5</button>
+  <button onclick="calValue('6')">6</button>
+  <button class="cal1"onclick="calValue('*')">*</button>
+     
+  <br>
+  <br>
+  <button onclick="calValue('1')">1</button>
+  <button onclick="calValue('2')">2</button>
+  <button onclick="calValue('3')">3</button>
+  <button class="cal1"onclick="calValue('-')">-</button>
+    
+    <br>
+    <br>
+    <button class="cal1"onclick="calValue('0')">0</button>
+  <button class="cal1"onclick="calValue('.')">.</button>
+  <button class="cal1"onclick="calResult( )">=</button>
+  <button class="cal1"onclick="calValue('+')">+</button>  
+    </div>
+  
+  <script src="index.js"></script>
+  
+</body>
+</html>
